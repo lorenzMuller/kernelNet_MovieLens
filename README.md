@@ -26,4 +26,4 @@ or on linux run in the project directory
 optional arguments are the L2 and sparsity regularization strength. Default is 60. and 0.013
 
 ### Results
-with the default parameters this slightly outperforms the paper model at 0.823 validation RMSE.
+with the default parameters this slightly outperforms the paper model at 0.823 validation RMSE (10-times repeated random sub-sampling validation)
