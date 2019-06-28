@@ -31,7 +31,7 @@ n_layers = 2
 output_every = 50  # evaluate performance on test set; breaks l-bfgs loop
 n_epoch = n_layers * 10 * output_every
 verbose_bfgs = True
-use_gpu = False
+use_gpu = True
 if not use_gpu:
     os.environ['CUDA_VISIBLE_DEVICES'] = ''
     
